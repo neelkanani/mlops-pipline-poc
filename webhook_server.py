@@ -57,6 +57,8 @@ def extract_errors_from_logs(logs_url):
         return []
 
     error_lines = []
+    
+    print("PRINT RES === >", res)
 
     with zipfile.ZipFile(io.BytesIO(res.content)) as z:
         for filename in z.namelist():
