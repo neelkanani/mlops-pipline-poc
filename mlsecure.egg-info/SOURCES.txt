@@ -1,0 +1,9 @@
+setup.py
+mlsecure/__init__.py
+mlsecure/cli.py
+mlsecure/secrets_scanner.py
+mlsecure.egg-info/PKG-INFO
+mlsecure.egg-info/SOURCES.txt
+mlsecure.egg-info/dependency_links.txt
+mlsecure.egg-info/entry_points.txt
+mlsecure.egg-info/top_level.txt

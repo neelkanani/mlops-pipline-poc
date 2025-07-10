@@ -1,0 +1,2 @@
+# Editable install with no version control (mlsecure==0.1)
+-e /Users/neelkanani/nk-code/true-armor/mlsecure
