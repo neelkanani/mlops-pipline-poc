@@ -8,7 +8,7 @@ async def github_webhook(request: Request):
     payload = await request.json()
     
     # Extract relevant info
-    workflow = payload.get("workflow_run", {})
+    workflow = payload.get("workflow_run", payload)
     conclusion = workflow.get("conclusion")
     name = workflow.get("name")
     html_url = workflow.get("html_url")
