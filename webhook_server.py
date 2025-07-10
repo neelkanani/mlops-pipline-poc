@@ -13,7 +13,7 @@ async def github_webhook(request: Request):
     name = workflow.get("name")
     html_url = workflow.get("html_url")
 
-    print("🔔 Webhook received!")
+    print("🔔 Webhook received!", workflow)
     print(f"Workflow: {name}")
     print(f"Status: {conclusion}")
     print(f"Details: {html_url}")
